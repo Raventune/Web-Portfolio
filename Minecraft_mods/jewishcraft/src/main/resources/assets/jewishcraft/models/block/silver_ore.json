@@ -1,0 +1,6 @@
+{
+"parent":"block/cube_all",
+"textures": {
+	"all":"jewishcraft:block/silver_ore"
+}
+}

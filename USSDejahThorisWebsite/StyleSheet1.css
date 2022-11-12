@@ -1,0 +1,73 @@
+﻿body {
+    background-color: #000000;
+    color: #ffffff;
+    font:bold Rambla;
+}
+article {
+    display: block;
+}
+foorter {
+    text-align:center;
+    justify-content:center;
+}
+.lcar {
+    background-color:  #ffff99;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    text-align: right;
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:13%;
+    margin:10px 3px 0px 3px;
+}
+/* The navbar container */
+nav {
+    overflow:default;
+    background-color: #000000;
+    margin-bottom:0px;
+    margin-top:0px;
+    height:60px;
+    padding-top:0px;
+    justify-content:center;
+}
+
+    /* Navbar links */
+    nav a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-decoration: none;
+    }
+
+        /* Links - change color on hover */
+        nav a:hover {
+            background-color: #fff;
+            color: black;
+        } 
+ul{
+    list-style:none;
+    height:0px;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}

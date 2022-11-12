@@ -1,0 +1,12 @@
+package com.raventune.jewishcraft;
+
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.common.Mod;
+
+@Mod("jewishcraft")
+
+public class Jewishcraft {
+	public Jewishcraft() {
+		MinecraftForge.EVENT_BUS.register(this);
+	}
+}
